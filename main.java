@@ -4,22 +4,18 @@
 //SI ES ADMINISTRATIVO SE AGREGA 2% DEL SALARIO TOTAL
 //SI TIENE MULTA SE DESCUENTA 15 AL SALARIO FINAL
 //EL PROGRAMA DEBE RECIBIR EL NOMBRE Y EL SALARIO DEL TRABAJADOR
-
-
-
-
-import java util.*; Unused import
+import java.util.*;
 
 public class main {
 
-    public static void main(String[] args){
+    public static void main(String[]args){
         String nombre;
         double salario;
         int opcion;
 
 
 
-        Scanner entrada = new Scanner(System.in)
+        Scanner entrada = new Scanner(System.in);
 
         System.out.println("1. Es programador");
         System.out.println("2. Es medico");
